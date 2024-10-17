@@ -1,0 +1,42 @@
+.listItm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(20, 20, 142);
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 350px;
+}
+
+.pragraph {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.pragraph>span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(218, 27, 27);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+
+    &:hover {
+        background-color: rgb(107, 7, 7);
+    }
+}
